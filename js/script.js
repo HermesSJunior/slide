@@ -1,6 +1,6 @@
-import { SlideNavigation } from './slide.js';
+import SlideNavigation from './slide.js';
 
 const slide = new SlideNavigation('.slide', '.slide_wrapper');
 slide.init();
 slide.addArrow('.previous', '.next');
-slide.addControl();
+slide.addControl('.custom_controls');
